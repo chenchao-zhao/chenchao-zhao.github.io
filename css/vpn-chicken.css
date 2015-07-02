@@ -1,7 +1,7 @@
 .version.vpn_chicken /* version checker */
 {
-	color: #000013;
-	background-color: #5BD346;
+	color: #000017;
+	background-color: #6FDBAA;
 }
 
 @-ms-viewport
@@ -171,8 +171,8 @@
 	display: block;
 	vertical-align: top;
 	position: fixed;
-	top: 1821px;
-	left: 263px;
+	top: 1938px;
+	left: 257px;
 }
 
 #u402-12
@@ -181,8 +181,8 @@
 	display: block;
 	vertical-align: top;
 	position: fixed;
-	top: 1924px;
-	left: 40px;
+	top: 2037px;
+	left: 48px;
 }
 
 #u323
@@ -196,7 +196,7 @@
 #u323-bw
 {
 	z-index: 3;
-	margin-top: 918px;
+	margin-top: 600px;
 	height: 210px;
 }
 
@@ -206,8 +206,8 @@
 	display: block;
 	vertical-align: top;
 	position: fixed;
-	top: 2959px;
-	left: 58px;
+	top: 2727px;
+	left: 50px;
 }
 
 #u330
@@ -221,25 +221,8 @@
 #u330-bw
 {
 	z-index: 4;
-	margin-top: 802px;
+	margin-top: 478px;
 	height: 210px;
-}
-
-#pu519
-{
-	width: 0.01px;
-	margin-left: 39px;
-	margin-top: 81px;
-}
-
-#u519
-{
-	z-index: 100;
-	width: 326px;
-	background-color: transparent;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 247px;
 }
 
 #u533
@@ -247,9 +230,19 @@
 	z-index: 108;
 	width: 286px;
 	background-color: transparent;
+	margin-left: 59px;
+	margin-top: 468px;
 	position: relative;
-	margin-right: -10000px;
-	left: 20px;
+}
+
+#u519
+{
+	z-index: 100;
+	width: 326px;
+	background-color: transparent;
+	margin-left: 39px;
+	margin-top: 97px;
+	position: relative;
 }
 
 #slideshowu404
@@ -257,7 +250,7 @@
 	z-index: 66;
 	width: 0.01px;
 	height: 324px;
-	margin-top: 32px;
+	margin-top: 151px;
 	position: relative;
 }
 
@@ -425,7 +418,7 @@
 	min-height: 20px;
 	border-style: none;
 	border-color: transparent;
-	background-color: #FFFFFF;
+	background-color: #F49A95;
 	padding: 10px;
 	text-align: center;
 	line-height: 20px;
@@ -450,7 +443,7 @@
 	min-height: 20px;
 	border-style: none;
 	border-color: transparent;
-	background-color: #FFFFFF;
+	background-color: #F49A95;
 	padding: 10px;
 	text-align: center;
 	line-height: 20px;
