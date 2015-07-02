@@ -1,7 +1,7 @@
 .version.vpn_chicken /* version checker */
 {
-	color: #0000EA;
-	background-color: #5BF5BC;
+	color: #000004;
+	background-color: #F03B03;
 }
 
 @-ms-viewport
@@ -121,7 +121,6 @@
 	z-index: 5;
 	height: 210px;
 	background: #A3604F url("../images/img_1542.jpg") no-repeat left bottom;
-	background-size: cover;
 }
 
 #u337-bw
@@ -156,7 +155,6 @@
 	z-index: 2;
 	height: 210px;
 	background: #7F7F7F url("../images/img_1489.jpg") no-repeat left bottom;
-	background-size: cover;
 }
 
 #u295-bw
@@ -201,7 +199,6 @@
 	z-index: 3;
 	height: 210px;
 	background: #7F7F7F url("../images/img_1503.jpg") no-repeat left bottom;
-	background-size: cover;
 }
 
 #u323-bw
@@ -216,7 +213,6 @@
 	z-index: 4;
 	height: 210px;
 	background: #7F7F7F url("../images/img_1539.jpg") no-repeat left bottom;
-	background-size: cover;
 }
 
 #u330-bw
