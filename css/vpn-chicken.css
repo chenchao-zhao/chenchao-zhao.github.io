@@ -1,7 +1,7 @@
 .version.vpn_chicken /* version checker */
 {
-	color: #000004;
-	background-color: #F03B03;
+	color: #000015;
+	background-color: #D5D400;
 }
 
 @-ms-viewport
@@ -38,19 +38,13 @@
 {
 	z-index: 1;
 	width: 380px;
-	min-height: 5083.7px;
+	min-height: 4669.7px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: transparent;
-	padding-bottom: 0px;
-}
-
-#page_position_content
-{
 	padding-top: 223px;
-	padding-bottom: 191px;
-	width: 0.01px;
+	padding-bottom: 191.30000000000018px;
 }
 
 #u306
@@ -170,8 +164,8 @@
 	display: block;
 	vertical-align: top;
 	position: fixed;
-	top: 1772px;
-	left: 268px;
+	top: 1846px;
+	left: 262px;
 }
 
 #u402-12
@@ -254,15 +248,14 @@
 	z-index: 66;
 	width: 0.01px;
 	height: 284px;
-	left: -42px;
-	margin-top: 15px;
+	margin-top: 14px;
 	position: relative;
 }
 
 #u405
 {
 	position: absolute;
-	width: 449px;
+	width: 380px;
 	height: 284px;
 	background-color: transparent;
 }
@@ -275,7 +268,7 @@
 #u406
 {
 	z-index: 68;
-	width: 449px;
+	width: 380px;
 	height: 284px;
 	border-style: none;
 	border-color: transparent;
@@ -287,7 +280,7 @@
 #u467
 {
 	z-index: 70;
-	width: 449px;
+	width: 380px;
 	height: 284px;
 	border-style: none;
 	border-color: transparent;
@@ -299,7 +292,7 @@
 #u476
 {
 	z-index: 72;
-	width: 449px;
+	width: 380px;
 	height: 284px;
 	border-style: none;
 	border-color: transparent;
@@ -311,7 +304,7 @@
 #u485
 {
 	z-index: 74;
-	width: 449px;
+	width: 380px;
 	height: 284px;
 	border-style: none;
 	border-color: transparent;
@@ -323,7 +316,7 @@
 #u494
 {
 	z-index: 76;
-	width: 449px;
+	width: 380px;
 	height: 284px;
 	border-style: none;
 	border-color: transparent;
@@ -335,26 +328,13 @@
 #u503
 {
 	z-index: 78;
-	width: 449px;
+	width: 380px;
 	height: 284px;
 	border-style: none;
 	border-color: transparent;
 	background-color: transparent;
 	margin-right: -10000px;
 	position: relative;
-}
-
-#u406_clip,#u467_clip,#u476_clip,#u485_clip,#u494_clip,#u503_clip
-{
-	overflow: hidden;
-	width: 449px;
-	height: 284px;
-}
-
-#u406_img,#u467_img,#u476_img,#u485_img,#u494_img,#u503_img
-{
-	margin-top: -26px;
-	margin-bottom: -27px;
 }
 
 .SSFirstButton,.SSPreviousButton,.SSNextButton,.SSLastButton,.SSSlideLink,.SSCloseButton /* slideshowFreeStyle */
@@ -373,7 +353,7 @@
 	width: 350px;
 	background-color: transparent;
 	margin-left: 7px;
-	margin-top: 27px;
+	margin-top: 28px;
 	position: relative;
 }
 
