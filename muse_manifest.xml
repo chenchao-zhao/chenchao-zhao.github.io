@@ -1,0 +1,51 @@
+<manifest alg="2" build="11" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1435849422932">
+  <folder name="css">
+    <file name="site_global.css" crc="422415861"/>
+    <file name="index.css" crc="4020422673" ref="index"/>
+    <file name="vpn-chicken.css" crc="157081837" ref="vpn-chicken"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="3880902115" ref="index:vpn-chicken"/>
+    <file name="museutils.js" crc="521960461" ref="index:vpn-chicken"/>
+    <file name="pie.js" crc="3827607177" ref="index"/>
+    <file name="jquery.musemenu.js" crc="397543671" ref="index"/>
+    <file name="jquery.watch.js" crc="56779320" ref="index:vpn-chicken"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:vpn-chicken"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="349594875" ref="vpn-chicken"/>
+    <file name="jquery.scrolleffects.js" crc="4038615763" ref="vpn-chicken"/>
+    <file name="webpro.js" crc="220831917" ref="vpn-chicken"/>
+    <file name="musewpslideshow.js" crc="224651946" ref="vpn-chicken"/>
+    <file name="jquery.museoverlay.js" crc="276313855" ref="vpn-chicken"/>
+    <file name="touchswipe.js" crc="325405309" ref="vpn-chicken"/>
+  </folder>
+  <folder name="images">
+    <file name="logo-2.png" crc="128416945" ref="index:vpn-chicken"/>
+    <file name="img_1544.jpg" crc="4283474630" ref="vpn-chicken"/>
+    <file name="u277-4.png" crc="4031763863" ref="vpn-chicken"/>
+    <file name="u318-4.png" crc="3792367304" ref="vpn-chicken"/>
+    <file name="u399-4.png" crc="94434322" ref="vpn-chicken"/>
+    <file name="u385-13.png" crc="25397129" ref="vpn-chicken"/>
+    <file name="img_1542.jpg" crc="161568261" ref="vpn-chicken"/>
+    <file name="u400-4.png" crc="4171609622" ref="vpn-chicken"/>
+    <file name="u398-12.png" crc="3872514613" ref="vpn-chicken"/>
+    <file name="img_1489.jpg" crc="4139474273" ref="vpn-chicken"/>
+    <file name="u401-4.png" crc="198359156" ref="vpn-chicken"/>
+    <file name="u402-12.png" crc="65320281" ref="vpn-chicken"/>
+    <file name="img_1503.jpg" crc="457351049" ref="vpn-chicken"/>
+    <file name="u403-11.png" crc="3858990743" ref="vpn-chicken"/>
+    <file name="img_1539.jpg" crc="350798105" ref="vpn-chicken"/>
+    <file name="follow-us-crop-u519.png" crc="343449199" ref="vpn-chicken"/>
+    <file name="img_15442.jpg" crc="388587544" ref="vpn-chicken"/>
+    <file name="blank.gif" crc="4208392903" ref="vpn-chicken"/>
+    <file name="img_15032.jpg" crc="376464487" ref="vpn-chicken"/>
+    <file name="img_14892.jpg" crc="4060060948" ref="vpn-chicken"/>
+    <file name="img_15422.jpg" crc="3894278121" ref="vpn-chicken"/>
+    <file name="img_15392.jpg" crc="268316635" ref="vpn-chicken"/>
+    <file name="img_1495.jpg" crc="4217426894" ref="vpn-chicken"/>
+    <file name="img_14952.jpg" crc="3928761859" ref="vpn-chicken"/>
+    <file name="loading.gif" crc="3815509949" ref="vpn-chicken"/>
+    <file name="logo_wechat_qr_transparent_background.png" crc="106755855" ref="vpn-chicken"/>
+  </folder>
+  <file name="index.html" crc="3828594290" mt="1435832003919" redirect="true"/>
+  <file name="vpn-chicken.html" crc="153356616" mt="1435849184857" redirect="true"/>
+</manifest>
