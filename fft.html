@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
+<p>@path<span><span>/Users/joseph/Dropbox/Notes/Plasmids//</span></span></p>
+<p>We have <span class="math">\[\frac{1}{A}=\int_{0}^{\infty}{\rm e}^{-\alpha A}d\alpha\]</span> and <span class="math">\[\frac{1}{AB}=\int_{0}^{\infty}d\alpha d\beta{\rm e}^{-\alpha A-\beta B}\]</span> Next we compute the Fourier transform of the pathological function <span class="math">\[f(x,y)=\frac{1}{(x+{\rm i}0^{+})(x^{2}+y^{2}-a^{2})}\]</span> which is</p>
+<p><span class="math">\[\begin{aligned}
+f(k_{1},k_{2}) &amp; = &amp; \int dxdy\frac{{\rm e}^{-{\rm i}(k_{1}x+k_{2}y)}}{(x+0^{+})(x^{2}+y^{2}-a^{2})}\\
+ &amp; = &amp; \int_{-\infty}^{\infty}dxdy\int_{0}^{\infty}dsdt\exp\left\{ -{\rm i}k_{1}x-{\rm i}k_{2}y-s(x+{\rm i}0^{+})-t(x^{2}+y^{2}-a^{2})\right\} \end{aligned}\]</span></p>
+<p>Next, let’s look at the exponent,</p>
+<p><span class="math">\[\begin{aligned}
+E &amp; = &amp; -t\left(x^{2}+\frac{s+{\rm i}k_{1}}{t}x\right)-t\left(y^{2}+\frac{{\rm i}k_{2}}{t}y\right)+ta^{2}-{\rm i}0^{+}s\\
+ &amp; = &amp; -t\left[\left(x+\frac{s+{\rm i}k_{1}}{2t}\right)^{2}-\left(\frac{s+{\rm i}k_{1}}{t}\right)^{2}\right]-t\left[\left(t-\frac{{\rm i}k_{2}}{2t}y\right)^{2}-\left(\frac{{\rm i}k_{2}}{2t}\right)^{2}\right]+ta^{2}-{\rm i}0^{+}s\end{aligned}\]</span></p>
+<p>Let <span class="math">\[x&#39;=t^{1/2}\left(x+\frac{s+{\rm i}k_{1}}{2t}\right)\]</span> <span class="math">\[y&#39;=t^{1/2}\left(t-\frac{{\rm i}k_{2}}{2t}y\right)\]</span> Then</p>
+<p><span class="math">\[\begin{aligned}
+f(\mathbf{k}) &amp; = &amp; \int_{0}^{\infty}\frac{\pi}{t}\exp\left\{ \frac{(s+{\rm i}k_{1})^{2}-k_{2}^{2}}{t}+a^{2}t-{\rm i}0^{+}s\right\} dsdt\\
+ &amp; = &amp; \pi\int_{0}^{\infty}\left\{ \int_{0}^{\infty}\frac{dt}{t}\exp\left(\frac{s^{2}-\mathbf{k}^{2}+2{\rm i}sk_{1}}{t}+a^{2}t-{\rm i}0^{+}s\right)\right\} ds\end{aligned}\]</span></p>
+<p>It appears to be the modified Bessel function but at <span class="math">\(t=0\)</span> the integrand is finite only for <span class="math">\(s^{2}&lt;\mathbf{k}^{2}\)</span> where the essential singularity kills the pole while at large <span class="math">\(t\)</span> the integrand diverges exponentially. Some regulator should be added (shifting <span class="math">\(x\)</span> to <span class="math">\(x+{\rm i}0^{+}\)</span> does not help) according to the physical situation where the pathology occurred.</p>
+</body>
+</html>
